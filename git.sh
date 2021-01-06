@@ -8,7 +8,7 @@ if [ -e $fname ]; then
 	git add . 
         git commit -m "some demo message"
 	git status
-	git push -u origin master
+	git push -u origin main
 else
 	echo " file not exit"
 fi
